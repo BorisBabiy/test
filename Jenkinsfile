@@ -1,5 +1,5 @@
 node('master') {
-  stage('test') {
+  stage('Test') {
     echo 'pass'
   }
   stage('UAT') {
