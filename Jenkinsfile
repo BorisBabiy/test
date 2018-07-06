@@ -1,5 +1,8 @@
 node('master') {
   sleep 60
+  stage('') {
+    checkout scm
+  }
   stage('Test') {
     echo 'pass'
   }
