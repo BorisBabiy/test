@@ -1,6 +1,5 @@
 node('master') {
-  sleep 60
-  stage('') {
+  stage('Checkout') {
     checkout scm
   }
   stage('Test') {
