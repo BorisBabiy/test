@@ -5,4 +5,5 @@ node('master') {
   stage('UAT') {
     echo 'pass'
   }
+  echo 'test'
 }
